@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="372.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <AnchorPane prefHeight="180.0" prefWidth="180.0">
+         <children>
+            <TextField fx:id="loginPole" layoutX="75.0" layoutY="100.0" prefHeight="30.0" prefWidth="120.0" />
+            <Label layoutX="87.0" layoutY="27.0" text="Logowanie:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginButton" layoutX="75.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" text="Logowanie" />
+            <PasswordField fx:id="hasloPole" layoutX="76.0" layoutY="146.0" prefHeight="25.0" prefWidth="122.0" />
+            <Label layoutX="31.0" layoutY="108.0" text="login" />
+            <Label layoutX="31.0" layoutY="150.0" text="haslo" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

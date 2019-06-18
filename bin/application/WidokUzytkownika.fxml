@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WidokUzytkownikaController">
+   <children>
+      <AnchorPane prefHeight="350.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="130.0" layoutY="21.0" prefHeight="79.0" prefWidth="340.0" text="Przykladowa Strona Uzytkownika">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="152.0" layoutY="214.0" text="Twoj login to: " />
+            <Label fx:id="loginLabel" layoutX="234.0" layoutY="214.0" prefHeight="17.0" prefWidth="222.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
